@@ -1,0 +1,8 @@
+button.next, button.make, .chat, .list_form, button.mix {
+    display: none;
+}
+
+button.next.on, button.make.on, .chat.on, .list_form.on, button.mix.on{
+    display: block;
+}
+

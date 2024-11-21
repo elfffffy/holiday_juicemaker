@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>juice maker</title>
+    <link rel="stylesheet" href="css/all.css">
+</head>
+<body>
+    <div id="page2" class="page"> <!-- 주문서 작성 -->
+        <div class="inner">
+            <div class="order_paper">
+                <title>주문서</title>
+                <form class="order">
+                    <div class="maker">
+                        <label for="maker">제조 담당자: </label>
+                        <input type="text" id="maker" required maxlength="5" placeholder="최대 5글자" autocomplete='off'>
+                    </div><!-- maker end -->
+                    <div class="receiver">
+                        <label for="receiver">음료 수령자: </label>
+                        <input type="text" id="receiver" required maxlength="5" placeholder="최대 5글자" autocomplete='off'>
+                    </div><!-- .receiver end -->
+                    <div class="temp">
+                        <label for="temp">온도 선택: </label>
+                        <input type="radio" id="temp1" name="temp" value="hot" autocomplete='off'>Hot
+                        <input type="radio" id="temp2" name="temp" value="cold" autocomplete='off'>Cold
+                    </div><!-- .receiver end -->
+                    <button type="submit" class="toMake">submit</button>
+                </form><!-- .order end -->
+            </div><!-- .order_paper end -->
+        </div><!-- .inner end -->
+    </div><!-- #page2 end -->
+
+    <script src="js/order.js"></script>
+
+</body>
+</html>

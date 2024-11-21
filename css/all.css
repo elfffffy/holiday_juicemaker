@@ -1,0 +1,31 @@
+@charset 'uft-08';
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    color: inherit;
+    list-style: none;
+}
+
+body {
+    color: #333;
+    line-height: 1;
+}
+
+.inner {
+    max-width: 1024px;
+    width: calc(100% - 30px);
+    margin: 0 auto;
+}
+
+.inner {
+    border: 1px solid #333;
+}

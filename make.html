@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>juice maker</title>
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/make.css">
+</head>
+<body>
+    <div id="page3" class="page"> <!-- 음료 제작 -->
+        <div class="inner">
+            <div class="chat on">
+                <div class="profile"></div>
+                <div class="text"></div>
+                <button class="next on">next</button>
+                <button class="make">make</button>
+            </div><!-- .chat end -->
+
+            <form class="list_form">
+                <div class="list">
+                    <div class="option1">
+                        <label for="op_happy">행복</label>
+                        <input type="checkbox" id="op_happy" name="option1" value="행복" autocomplete='off'>
+                    </div><!-- .option1 end -->
+                    <div class="option2">
+                        <label for="op_love">사랑</label>
+                        <input type="checkbox" id="op_love" name="option2" value="사랑" autocomplete='off'>
+                    </div><!-- .option2 end -->
+                    <div class="option3">
+                        <label for="op_health">건강</label>
+                        <input type="checkbox" id="op_health" name="option3" value="건강" autocomplete='off'>
+                    </div><!-- .option3 end -->
+                    <div class="option4">
+                        <label for="op_success">성취</label>
+                        <input type="checkbox" id="op_success" name="option4" value="성취" autocomplete='off'>
+                    </div><!-- .option4 end -->
+                    <div class="option5">
+                        <label for="op_money">재물</label>
+                        <input type="checkbox" id="op_money" name="option5" value="재물" autocomplete='off'>
+                    </div><!-- .option5 end -->
+                    <div class="option6">
+                        <label for="op_thanks">감사</label>
+                        <input type="checkbox" id="op_thanks" name="option6" value="감사" autocomplete='off'>
+                    </div><!-- .option6 end -->
+                    <div class="option7">
+                        <label for="op_heart">온정</label>
+                        <input type="checkbox" id="op_heart" name="option7" value="온정" autocomplete='off'>
+                    </div><!-- .option7 end -->
+                    <div class="option8">
+                        <label for="op_lucky">행운</label>
+                        <input type="checkbox" id="op_lucky" name="option8" value="행운" autocomplete='off'>
+                    </div><!-- .option8 end -->
+                    <div class="option9">
+                        <label for="op_growth">성장</label>
+                        <input type="checkbox" id="op_growth" name="option9" value="성장" autocomplete='off'>
+                    </div><!-- .option9 end -->
+                </div><!-- .list end -->
+            </form><!-- .list_form end -->
+
+            <div class="bottle">
+            </div><!-- .bottle end -->
+
+            <button class="mix">mix</button>
+        </div><!-- .inner end -->
+    </div><!-- #page3 end -->
+
+    <script src="js/make.js"></script>
+</body>
+</html>

@@ -1,0 +1,7 @@
+.order.on, .next.on {
+    display: block;
+}
+
+.order, .next {
+    display: none;
+}
